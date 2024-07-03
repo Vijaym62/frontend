@@ -1,0 +1,19 @@
+<!-- src/app/task-list/task-list.component.html -->
+<div class="container">
+  <h2>Task List</h2>
+  <!-- <button mat-stroked-button (click)="addTask()">Add Task</button> -->
+  <button mat-raised-button color="primary" (click)="addTask()">
+    Add Task
+  </button>
+  <ul class="list-group">
+    <li *ngFor="let task of tasks" class="list-group-item">
+      <h5 [class.completed]="task.completed">{{ task.title }}</h5>
+      <p>{{ task.description }}</p>
+
+      <button (click)="deleteTask(task.id)" class="btn btn-danger">
+        Delete
+      </button>
+      <button (click)="editTask(task)" class="btn btn-primary">Edit</button>
+    </li>
+  </ul>
+</div>

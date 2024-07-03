@@ -1,0 +1,78 @@
+/* src/app/task-list/task-list.component.css */
+/* .completed {
+    text-decoration: line-through;
+  }
+   */
+   /* src/app/task-list/task-list.component.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .add-btn{
+    background-color: aquamarine;
+    font-size: 1rem;
+    
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .list-group-item h5 {
+    margin: 0;
+    font-size: 1.2em;
+    flex-grow: 1;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  .btn-success {
+    background-color: #00ff95;
+    border-color: #00ff95;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  /* Responsive styles */
+  /* @media (max-width: 768px) {
+    .list-group-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+   */
+    /* button {
+      /* margin-left: 0;
+      margin-top: 5px;
+      margin-right: 5px;
+      margin-left: 5px; */
+      
+    /* } */ 
+  /* } */
