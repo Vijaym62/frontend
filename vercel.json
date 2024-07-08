@@ -1,7 +1,1 @@
-{
-    "build": {
-      "command": "ng build --prod",
-      "outputDirectory": "dist/<frontend-vijay>"
-    }
-  }
-  
+
